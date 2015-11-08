@@ -19,11 +19,11 @@ if args.verbose:
 
 # Determine the GPIO pin
 if args.color == 'red':
-    pin = 8
-elif args.color == 'yellow':
-    pin = 10
-elif args.color == 'green':
-    pin = 12
+    pin = 16
+#elif args.color == 'yellow':
+#   pin = 10
+#elif args.color == 'green':
+#    pin = 12
 else:
     raise SystemExit('Bad color specified.')
 
